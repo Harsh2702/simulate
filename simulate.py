@@ -20,7 +20,7 @@ def simulate_bot_input():
             print(f"[Keep-Alive] Sent simulated input: {res.status_code}")
         except Exception as e:
             print(f"[Keep-Alive] Error: {e}")
-        time.sleep(600)  # Every 10 minutes
+        time.sleep(60)  # Every 1 minutes
 
 if __name__ == "__main__":
     simulate_bot_input()
