@@ -2,7 +2,7 @@ import time
 import requests
 
 def simulate_bot_input():
-    url = " https://3d32-104-155-148-192.ngrok-free.app/demo"  # CHANGE this to your deployed URL if needed
+    url = "https://3d32-104-155-148-192.ngrok-free.app/demo"  # CHANGE this to your deployed URL if needed
     headers = {"Content-Type": "application/json"}
 
     dummy_payload = {
